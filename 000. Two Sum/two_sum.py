@@ -15,13 +15,10 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        for item_a in nums:
-            for item_b in nums:
-                if item_a + item_b == target:
-                    item_a_index = nums.index(item_a)
-                    item_b_index = nums.index(item_b)
-
-                    return [item_a_index, item_b_index]
+        for a_index, a in enumerate(nums):
+            for b_index, b in enumerate(nums[a_index + 1:]):
+                if a + b == target:
+                    return [a_index, a_index + b_index + 1]
 
 
 if __name__ == '__main__':
