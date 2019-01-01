@@ -34,3 +34,5 @@ if __name__ == "__main__":
     res = Solution().maxArea(height=input_list)
     print("res:", res)
     pass
+    
+    
