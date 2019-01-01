@@ -7,7 +7,9 @@ Given n non-negative integers a1, a2, ..., an , where each represents a point at
 Note: You may not slant the container and n is at least 2.
 
 ![Description](https://github.com/lsniper7614/LeetCode/blob/master/011.Container%20With%20Most%20Water/Container%20With%20Most%20Water.jpg)
-The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49. 
+
+The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. 
+In this case, the max area of water (blue section) the container can contain is 49. 
 
 ## Examples
 
